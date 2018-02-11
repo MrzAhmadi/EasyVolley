@@ -1,5 +1,12 @@
 apply plugin: 'com.android.library'
 
+ext {
+    PUBLISH_GROUP_ID = 'com.smrahmadi'
+    PUBLISH_ARTIFACT_ID = 'EasyVolley'
+    PUBLISH_VERSION = '0.0.1'
+}
+
+
 android {
     compileSdkVersion 27
 
@@ -34,3 +41,6 @@ dependencies {
     compile 'com.android.volley:volley:1.1.0'
 
 }
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
+
