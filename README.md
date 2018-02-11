@@ -4,6 +4,18 @@ A library with a simple structure for sending requests and receiving responses t
 This new Wrapper library is from the Volley Library, which is much simpler to implement.
 
 ## Instalation ##
+<br/>
+
+### with jcenter ###
+Add the dependency
+```
+	dependencies {
+	        compile 'com.smrahmadi:EasyVolley:0.0.1'
+	}
+```
+
+
+### with jitpack ###
 Step 1. Add the JitPack repository to your build file<br/>
 ```	
 allprojects {
