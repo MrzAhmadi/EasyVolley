@@ -1,4 +1,6 @@
-# EasyVolley
+# DEPRECATED!!! THIS REPOSITORY IS NOT MAINTAINED
+
+## EasyVolley
 
 A library with a simple structure for sending requests and receiving responses to the server. <br/>
 This new Wrapper library is from the Volley Library, which is much simpler to implement.
